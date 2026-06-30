@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Dry Clean</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <img id="logo" src="PDC.png" alt="">
+
+
+        <div class="nav-links">
+            <a href="#rates">List</a>
+            <a href="#offers">Services</a>
+            <a href="#order">Call Us</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <h2>Power Dry Clean & Laundry Service</h2>
+            <p>Premium Cleaning For Your Clothes & Household Items</p>
+
+
+            <p id="typing-text">Free Pick-up And Drop Service Available 24/7</p>
+
+            <br><br>
+
+            <button class="btn" onclick="orderNow()">
+              Pickup Request
+            </button>
+        </div>
+
+
+
+    </section>
+
+    <section id="rates">
+
+        <h3 class="section-title">Rate List</h3>
+
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search item...">
+        </div>
+
+        <div class="tabs">
+
+            <button class="tab-btn active" onclick="filterCategory('All',this)">
+                All
+            </button>
+
+            <button class="tab-btn" onclick="filterCategory('Men',this)">
+                Men
+            </button>
+
+
+            <button class="tab-btn" onclick="filterCategory('Women',this)">
+                Women
+            </button>
+
+            <button class="tab-btn" onclick="filterCategory('Household',this)">
+                Household
+            </button>
+
+            <button class="tab-btn" onclick="filterCategory('Laundry',this)">
+                Laundry
+            </button>
+
+        </div>
+
+        <div class="rate-grid" id="rateGrid"></div>
+
+  
+
+    <div id="cardContainer"></div>
+
+    <div class="pagination">
+        <button id="prevBtn">Prev</button>
+        <span id="pageNum">Page 1</span>
+        <button id="nextBtn">Next</button>
+    </div>
+
+      </section>
+
+    <section id="offers">
+
+        <h2 class="section-title" id="section-titleheading">What We Offer</h2>
+
+        <div class="offer-grid">
+
+            <div class="offer-card">
+                <h3>Dry Cleaning</h3>
+                <p>Professional garment cleaning service.</p>
+            </div>
+
+            <div class="offer-card">
+                <h3>Steam Ironing</h3>
+                <p>Perfect finishing and wrinkle removal.</p>
+            </div>
+
+            <div class="offer-card">
+                <h3>Stain Removal</h3>
+                <p>Advanced stain treatment solutions.</p>
+            </div>
+
+            <div class="offer-card">
+                <h3>Same Day Service</h3>
+                <p>Get your clothes cleaned and delivered on the same day.</p>
+            </div>
+
+            <div class="offer-card">
+                <h3>Pickup & Drop</h3>
+                <p>Free Pickup & Drop service.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="order" class="order-section">
+
+        <h2 class="section-title">Ready To Place Order?</h2>
+
+        <button class="btn" onclick="orderNow()">
+            Book Pickup on WhatsApp
+        </button>
+
+    </section>
+
+    <footer class="footer">
+        <h3>Power Dry Clean</h3>
+        <p>Laundry & Dry Cleaning Services || Email: powerdryclean@gmail.com</p>
+        <a href="https://www.bing.com/ck/a?!&&p=acf65e48347b9d6a3aa1fc7477a0e6b8e5e8768c7b8565f24834253a7adaa560JmltdHM9MTc4MDUzMTIwMA&ptn=3&ver=2&hsh=4&fclid=2e3ab04f-f279-6259-2cf8-a751f39c6334&u=a1aHR0cHM6Ly93d3cuYmluZy5jb20vYWxpbmsvbGluaz91cmw9aHR0cCUzYSUyZiUyZnd3dy5wb3dlcmRyeWNsZWFuLmluJTJmJnNvdXJjZT1zZXJwLWxvY2FsJmg9cWc5cHFCd1hrd3dXMUlYYkg5SUNSUlpERXhxN2FxanlOcyUyYjk1TExDbmEwJTNkJnA9bHdfbWFnc3R3dCZpZz01REU1QzAxOEVFREU0MzYyQUFBMEEzRDI1N0EwNTQyNCZ5cGlkPVlONzU4MDRGQkIzNjgyNEVBNA">www.powerdryclean.in</a>
+        <button id="topBtn">⬆</button>
+    </footer>
+
+    <!-- <a class="whatsapp-float" href="https://wa.me/918210244036" target="_blank">
+
+    </a> -->
+
+    <script src="script1.js"></script>
+
+</body>
+
+</html>
