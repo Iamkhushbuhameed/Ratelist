@@ -54,11 +54,19 @@ const services = [
     { category: 'Laundry', item: 'Wash & Iron', price: '₹90 - Per Kg' },
     { category: 'Laundry', item: 'Wash & Fold', price: '₹70 - Per Kg' },
 
-
-
-
-
-
+    
+    { category: 'Woollen', item: 'Sweater || Pullover ', price: '₹120 - ₹150' },
+    { category: 'Woollen', item: 'Half Jacket', price: '₹200 - ₹250' },
+    { category: 'Woollen', item: 'Full Jacket || Parka', price: '₹200 - ₹250' },
+    { category: 'Woollen', item: 'Coat || Blazer || Overcoat', price: '₹200 - ₹300' },
+    { category: 'Woollen', item: 'Shawl', price: '₹150 - ₹200' },
+    { category: 'Woollen', item: 'Muffler / Cap', price: '₹60 - ₹80' },
+    { category: 'Woollen', item: 'Blanket Single', price: '₹250 - ₹350' },
+    { category: 'Woollen', item: 'Blanket Double', price: '₹400 - ₹550' },
+    { category: 'Woollen', item: 'Quilt || Rajai Single', price: '₹300 - ₹400' },
+    { category: 'Woollen', item: 'Quilt || Rajai Double:', price: '₹250 - ₹300' },
+                      
+  
 
 ];
 
